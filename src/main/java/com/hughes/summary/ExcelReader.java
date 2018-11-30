@@ -40,9 +40,7 @@ public class ExcelReader {
 		 * =============================================================
 		 */
 		
-		//FileOutputStream fileOut = new FileOutputStream("/Users/anirvanroy/Documents/dev-workspace/summaryreport/src/main/resources/Output-report.xlsx");
-		//String file = "/Users/anirvanroy/Documents/dev-workspace/summaryreport/src/main/resources/Output-report.xlsx";
-		String file = "/Users/anirvanroy/Documents/workspace/runs/Output-report.xlsx";
+		String file = "C:/Data/Reports/Output-report.xlsx";
 		DataFormatter dataFormatter = new DataFormatter();
 		for (Sheet sheet : workbook) {
 			
